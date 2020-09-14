@@ -1,0 +1,31 @@
+{
+  "name": "github-metrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "script:build-layer": "./scripts/build-layer.sh",
+    "script:build-function": "tsc; ./scripts/build-lambda.sh",
+    "compile": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^18.0.5",
+    "aws-sdk": "^2.747.0"
+  },
+  "devDependencies": {
+    "@octokit/types": "^5.4.1",
+    "@types/aws-lambda": "^8.10.62",
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^13.13.17",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.1.3",
+    "sinon": "^9.0.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.7"
+  }
+}
