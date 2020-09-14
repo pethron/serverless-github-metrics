@@ -1,5 +1,5 @@
 {
-  "name": "github-metrics",
+  "name": "serverless-github-metrics",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
@@ -9,8 +9,9 @@
     "compile": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/pethron/serverless-github-metrics#readme",
+  "author": "Nicolo Marchesi",
+  "license": "MIT",
   "dependencies": {
     "@octokit/rest": "^18.0.5",
     "aws-sdk": "^2.747.0"
