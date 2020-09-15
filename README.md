@@ -1,3 +1,7 @@
 # Github Serverless Metrics
 
-This is a complete project to keep a track record of a github repository.
+> Keep track of how your github repository stats are performing and build its history.
+
+> ideally one sentence
+
+> Serverless solution written in TypeScript; deployed on AWS Lambda and DynamoDB with Terraform.
